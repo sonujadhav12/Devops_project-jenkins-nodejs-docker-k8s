@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/devopscloudworld/jenkins-nodejs-docker-k8s.git'
+        git 'https://github.com/sonujadhav12/devops_project-jenkins-nodejs-docker-k8s.git'
       }
     }
 
